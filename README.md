@@ -18,7 +18,7 @@ The tuning info can be in the [`au-Newcastle`](au-Newcastle) file. This file is 
 
 The following table contains the same information for your convenience.
 
-| Channel        | freq      | bw   | fec_hi | fec_lo | mod   | tm | guard | hi  |
+| Network        | freq      | bw   | fec_hi | fec_lo | mod   | tm | guard | hi  |
 |----------------|-----------|------|--------|--------|-------|----|-------|-----|
 | Seven          | 578.5 MHz | 7MHz | 3/4    | N/A    | QAM64 | 8k | 1/16  | N/A |
 | NBN Newcastle  | 585.5 MHz | 7MHz | 3/4    | N/A    | QAM64 | 8k | 1/16  | N/A |
