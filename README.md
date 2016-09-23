@@ -9,7 +9,7 @@ I've taken the liberty of generating a playlist file for VLC with all of the cha
   * These files were generated from the Mt Sugarloaf omnidirectional transmitter site and as a result may have different frequencies or program ids if you receive your signals from one of the many directional transmitters in the Hunter area (such as Munibung Hill and Charlestown).
 
       * Mt Sugarloaf transmitter info can be found [here](https://ozdigitaltv.com/transmitters/NSW/12-Mt-Sugarloaf).
-      * The ABC website has a coverage map [here](http://www2b.abc.net.au/reception/frequencyfinder/asp/largemap.asp?transmissionid=3567&presdir=).
+      * The ABC website has a coverage map [here](http://www2b.abc.net.au/reception/frequencyfinder/asp/details.asp?transmissionid=18809&presdir=).
       * As does the SBS [website](http://www20.sbs.com.au/transmissions/download.php?file=9345newcastle_sbs38_dtv_pubmap.pdf).
       
 ### Tuning Info
