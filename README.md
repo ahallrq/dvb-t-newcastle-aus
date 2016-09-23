@@ -71,7 +71,7 @@ The following tables shows info for each network's "program" (multiple channels 
 
 #### Radio
 
-As you could probably tell. The VID for radio channels is 0 since there's no video.
+As you could probably tell, the VID for radio channels is 0 since there's no video.
 
 | Network (see tuning table) | Channel     | PID | TSID | VID | AID |
 |----------------------------|-------------|-----|------|-----|-----|
