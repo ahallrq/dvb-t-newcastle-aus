@@ -1,4 +1,4 @@
-# DVB-T configuration files for Newcastle and the Lower Hunter
+# DVB-T configuration files for Newcastle and the Lower Hunter regions
 
 This repository contains configuration files allowing anyone who lives in the Newcastle and Lower Hunter regions to watch free-to-air television via a DVB-T compatible tv tuner card on GNU/Linux.
 
