@@ -2,6 +2,8 @@
 
 This repository contains configuration files allowing anyone who lives in the Newcastle and Lower Hunter regions to watch free-to-air television via a DVB-T compatible tv tuner card on GNU/Linux.
 
+I've taken the liberty of generating a playlist file for VLC with all of the channels in it which can be found at [`channels.xspf`](channels.xspf). If you use mpv/mplayer you can use the [`channels.conf`](channels.conf) file instead.
+
 ### Important Notes
 
   * These files were generated from the Mt Sugarloaf omnidirectional transmitter site and as a result may have different frequencies or program ids if you receive your signals from one of the many directional transmitters in the Hunter area (such as Munibung Hill and Charlestown).
@@ -12,7 +14,9 @@ This repository contains configuration files allowing anyone who lives in the Ne
       
 ### Tuning Info
 
-The tuning info can be in the [`au-Newcastle`](au-Newcastle) file. It can also be found in the following table for your convenience.
+The tuning info can be in the [`au-Newcastle`](au-Newcastle) file. This file is also a usable initial scanning file that you can use with `w_scan` or another scanning utility. Using this with `w_scan` may be desirable as it would be much faster than doing a full spectrum scan. 
+
+The following table contains the same information for your convenience.
 
 | Channel        | freq      | bw   | fec_hi | fec_lo | mod   | tm | guard | hi  |
 |----------------|-----------|------|--------|--------|-------|----|-------|-----|
