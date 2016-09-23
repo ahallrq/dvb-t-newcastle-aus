@@ -1,6 +1,6 @@
 # DVB-T configuration files for Newcastle and the Lower Hunter regions
 
-This repository contains configuration files allowing anyone who lives in the Newcastle and Lower Hunter regions to watch free-to-air television via a DVB-T compatible tv tuner card on GNU/Linux.
+This repository contains configuration files allowing anyone who lives in the Newcastle and Lower Hunter regions to watch free-to-air television via a DVB-T compatible tv tuner card on GNU/Linux without needing to use the various scanning utilities.
 
 I've taken the liberty of generating a playlist file for VLC with all of the channels in it which can be found at [`channels.xspf`](channels.xspf). If you use mpv/mplayer you can use the [`channels.conf`](channels.conf) file instead.
 
