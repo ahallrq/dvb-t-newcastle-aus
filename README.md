@@ -26,9 +26,9 @@ The following table contains the same information for your convenience.
 | SBS NSW        | 599.5 MHz | 7MHz | 3/4    | N/A    | QAM64 | 8k | 1/16  | N/A |
 | Ten / SCA      | 606.5 MHz | 7MHz | 3/4    | N/A    | QAM64 | 8k | 1/16  | N/A |
 
-### Channel and Program Info
+### Channel Info
 
-The following tables shows info for each channel's "program" (multiple channels are multiplexed into a single stream). Channels for TV radio are in a seperate table.
+The following tables shows info for each network's "program" (multiple channels are multiplexed into a single stream with each channel referred to as a program). Channels for TV radio are in a seperate table.
 
 *Please note there are duplicate channels (possibly from other transmitters). Just watch the ones that work and delete the others.*
 
