@@ -14,7 +14,7 @@ I've taken the liberty of generating a playlist file for VLC with all of the cha
       
 ### Tuning Info
 
-The tuning info can be in the [`au-Newcastle`](au-Newcastle) file. This file is also a usable initial scanning file that you can use with `w_scan` or another scanning utility. Using this with `w_scan` may be desirable as it would be much faster than doing a full spectrum scan. 
+The tuning info can found be in the [`au-Newcastle`](au-Newcastle) file. This file is also a usable initial scanning file that you can use with `w_scan` or another scanning utility. Using this with `w_scan` may be desirable as it would be much faster than doing a full spectrum scan. 
 
 The following table contains the same information for your convenience.
 
