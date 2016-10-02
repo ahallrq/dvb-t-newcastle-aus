@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>DVB-T Newcastle by iownall555</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">DVB-T Newcastle</h1>
+      <h2 class="project-tagline">Terrestrial television configuration files for the Newcastle and Lower Hunter regions.</h2>
+      <a href="https://github.com/iownall555/dvb-t-newcastle-aus" class="btn">View on GitHub</a>
+      <a href="https://github.com/iownall555/dvb-t-newcastle-aus/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/iownall555/dvb-t-newcastle-aus/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="dvb-t-configuration-files-for-newcastle-and-the-lower-hunter-regions" class="anchor" href="#dvb-t-configuration-files-for-newcastle-and-the-lower-hunter-regions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>DVB-T configuration files for Newcastle and the Lower Hunter regions</h1>
+
+<p>This repository contains configuration files allowing anyone who lives in the Newcastle and Lower Hunter regions to watch free-to-air television via a DVB-T compatible tv tuner card on GNU/Linux without needing to use the various scanning utilities.</p>
+
+<p>I've taken the liberty of generating a playlist file for VLC with all of the channels in it which can be found at <a href="channels.xspf"><code>channels.xspf</code></a>. If you use mpv/mplayer you can use the <a href="channels.conf"><code>channels.conf</code></a> file instead.</p>
+
+<h3>
+<a id="important-notes" class="anchor" href="#important-notes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Important Notes</h3>
+
+<ul>
+<li>
+<p>These files were generated from the Mt Sugarloaf omnidirectional transmitter site and as a result may have different frequencies or program ids if you receive your signals from one of the many directional transmitters in the Hunter area (such as Munibung Hill and Charlestown).</p>
+
+<ul>
+<li>Mt Sugarloaf transmitter info can be found <a href="https://ozdigitaltv.com/transmitters/NSW/12-Mt-Sugarloaf">here</a>.</li>
+<li>The ABC website has a coverage map <a href="http://www2b.abc.net.au/reception/frequencyfinder/asp/details.asp?transmissionid=18809&amp;presdir=">here</a>.</li>
+<li>As does the SBS <a href="http://www20.sbs.com.au/transmissions/download.php?file=9345newcastle_sbs38_dtv_pubmap.pdf">website</a>.</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="tuning-info" class="anchor" href="#tuning-info" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tuning Info</h3>
+
+<p>The tuning info can found be in the <a href="au-Newcastle"><code>au-Newcastle</code></a> file. This file is also a usable initial scanning file that you can use with <code>w_scan</code> or another scanning utility. Using this with <code>w_scan</code> may be desirable as it would be much faster than doing a full spectrum scan. </p>
+
+<p>The following table contains the same information for your convenience.</p>
+
+<table>
+<thead>
+<tr>
+<th>Network</th>
+<th>freq</th>
+<th>bw</th>
+<th>fec_hi</th>
+<th>fec_lo</th>
+<th>mod</th>
+<th>tm</th>
+<th>guard</th>
+<th>hi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Seven</td>
+<td>578.5 MHz</td>
+<td>7MHz</td>
+<td>3/4</td>
+<td>N/A</td>
+<td>QAM64</td>
+<td>8k</td>
+<td>1/16</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>NBN Newcastle</td>
+<td>585.5 MHz</td>
+<td>7MHz</td>
+<td>3/4</td>
+<td>N/A</td>
+<td>QAM64</td>
+<td>8k</td>
+<td>1/16</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>ABC Digital TV</td>
+<td>592.5 MHz</td>
+<td>7MHz</td>
+<td>3/4</td>
+<td>N/A</td>
+<td>QAM64</td>
+<td>8k</td>
+<td>1/16</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>SBS NSW</td>
+<td>599.5 MHz</td>
+<td>7MHz</td>
+<td>3/4</td>
+<td>N/A</td>
+<td>QAM64</td>
+<td>8k</td>
+<td>1/16</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>Ten / SCA</td>
+<td>606.5 MHz</td>
+<td>7MHz</td>
+<td>3/4</td>
+<td>N/A</td>
+<td>QAM64</td>
+<td>8k</td>
+<td>1/16</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+
+<h3>
+<a id="channel-info" class="anchor" href="#channel-info" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Channel Info</h3>
+
+<p>The following tables shows info for each network's "program" (multiple channels are multiplexed into a single stream with each channel referred to as a program). Channels for TV radio are in a seperate table.</p>
+
+<p><em>Please note there are duplicate channels (possibly from other transmitters). Just watch the ones that work and delete the others.</em></p>
+
+<h4>
+<a id="television" class="anchor" href="#television" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Television</h4>
+
+<table>
+<thead>
+<tr>
+<th>Network (see tuning table)</th>
+<th>Channel</th>
+<th>PID</th>
+<th>TSID</th>
+<th>VID</th>
+<th>AID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Seven</td>
+<td>PRIME7 Newcastle</td>
+<td>2366</td>
+<td>2480</td>
+<td>2660</td>
+<td>2661</td>
+</tr>
+<tr>
+<td>Seven</td>
+<td>PRIME7 Newcastle</td>
+<td>2410</td>
+<td>2480</td>
+<td>2660</td>
+<td>2661</td>
+</tr>
+<tr>
+<td>Seven</td>
+<td>PRIME7 Newcastle</td>
+<td>2411</td>
+<td>2480</td>
+<td>2660</td>
+<td>2661</td>
+</tr>
+<tr>
+<td>Seven</td>
+<td>7TWO</td>
+<td>2412</td>
+<td>2480</td>
+<td>4620</td>
+<td>4621</td>
+</tr>
+<tr>
+<td>Seven</td>
+<td>7mate</td>
+<td>2413</td>
+<td>2480</td>
+<td>4630</td>
+<td>4623</td>
+</tr>
+<tr>
+<td>Seven</td>
+<td>ishoptv</td>
+<td>2415</td>
+<td>2480</td>
+<td>4650</td>
+<td>4651</td>
+</tr>
+<tr>
+<td>Seven</td>
+<td>RACING.COM</td>
+<td>2418</td>
+<td>2480</td>
+<td>4680</td>
+<td>4681</td>
+</tr>
+<tr>
+<td>NBN Newcastle</td>
+<td>Nine Newcastle</td>
+<td>101</td>
+<td>1792</td>
+<td>1000</td>
+<td>1010</td>
+</tr>
+<tr>
+<td>NBN Newcastle</td>
+<td>9HD Newcastle</td>
+<td>111</td>
+<td>1792</td>
+<td>1200</td>
+<td>1220</td>
+</tr>
+<tr>
+<td>NBN Newcastle</td>
+<td>Nine Newcastle</td>
+<td>191</td>
+<td>1792</td>
+<td>1000</td>
+<td>1010</td>
+</tr>
+<tr>
+<td>NBN Newcastle</td>
+<td>9GEM Newcastle</td>
+<td>121</td>
+<td>1792</td>
+<td>1100</td>
+<td>1110</td>
+</tr>
+<tr>
+<td>NBN Newcastle</td>
+<td>9GO! Newcastle</td>
+<td>131</td>
+<td>1792</td>
+<td>1881</td>
+<td>1882</td>
+</tr>
+<tr>
+<td>NBN Newcastle</td>
+<td>9Life Newcastle</td>
+<td>151</td>
+<td>1792</td>
+<td>1400</td>
+<td>1410</td>
+</tr>
+<tr>
+<td>NBN Newcastle</td>
+<td>eXtra</td>
+<td>141</td>
+<td>1792</td>
+<td>1841</td>
+<td>1842</td>
+</tr>
+<tr>
+<td>NBN Newcastle</td>
+<td>9GO! Newcastle</td>
+<td>181</td>
+<td>1792</td>
+<td>1881</td>
+<td>1882</td>
+</tr>
+<tr>
+<td>ABC Digital TV</td>
+<td>ABC News 24</td>
+<td>672</td>
+<td>547</td>
+<td>516</td>
+<td>654</td>
+</tr>
+<tr>
+<td>ABC Digital TV</td>
+<td>ABC</td>
+<td>673</td>
+<td>547</td>
+<td>512</td>
+<td>650</td>
+</tr>
+<tr>
+<td>ABC Digital TV</td>
+<td>ABC2/KIDS</td>
+<td>674</td>
+<td>547</td>
+<td>513</td>
+<td>651</td>
+</tr>
+<tr>
+<td>ABC Digital TV</td>
+<td>ABC</td>
+<td>675</td>
+<td>547</td>
+<td>512</td>
+<td>650</td>
+</tr>
+<tr>
+<td>ABC Digital TV</td>
+<td>ABC ME (formerly ABC3)</td>
+<td>676</td>
+<td>547</td>
+<td>514</td>
+<td>652</td>
+</tr>
+<tr>
+<td>SBS NSW</td>
+<td>SBS ONE</td>
+<td>849</td>
+<td>848</td>
+<td>161</td>
+<td>81</td>
+</tr>
+<tr>
+<td>SBS NSW</td>
+<td>SBS TWO</td>
+<td>850</td>
+<td>848</td>
+<td>162</td>
+<td>83</td>
+</tr>
+<tr>
+<td>SBS NSW</td>
+<td>NITV</td>
+<td>852</td>
+<td>848</td>
+<td>164</td>
+<td>87</td>
+</tr>
+<tr>
+<td>SBS NSW</td>
+<td>SBS HD</td>
+<td>853</td>
+<td>848</td>
+<td>102</td>
+<td>103</td>
+</tr>
+<tr>
+<td>SBS NSW</td>
+<td>Food Network</td>
+<td>851</td>
+<td>848</td>
+<td>163</td>
+<td>85</td>
+</tr>
+<tr>
+<td>Ten / SCA</td>
+<td>TEN Newcastle</td>
+<td>2058</td>
+<td>2058</td>
+<td>401</td>
+<td>402</td>
+</tr>
+<tr>
+<td>Ten / SCA</td>
+<td>ONE Newcastle</td>
+<td>2090</td>
+<td>2058</td>
+<td>2011</td>
+<td>2012</td>
+</tr>
+<tr>
+<td>Ten / SCA</td>
+<td>ELEVEN</td>
+<td>2122</td>
+<td>2058</td>
+<td>2021</td>
+<td>2022</td>
+</tr>
+<tr>
+<td>Ten / SCA</td>
+<td>YESSHOP</td>
+<td>2154</td>
+<td>2058</td>
+<td>2031</td>
+<td>2032</td>
+</tr>
+<tr>
+<td>Ten / SCA</td>
+<td>Aspire</td>
+<td>2186</td>
+<td>2058</td>
+<td>2041</td>
+<td>2042</td>
+</tr>
+<tr>
+<td>Ten / SCA</td>
+<td>TEN Newcastle</td>
+<td>2218</td>
+<td>2058</td>
+<td>401</td>
+<td>402</td>
+</tr>
+<tr>
+<td>Ten / SCA</td>
+<td>TEN HD Newcastle</td>
+<td>2250</td>
+<td>2058</td>
+<td>2061</td>
+<td>2062</td>
+</tr>
+</tbody>
+</table>
+
+<h4>
+<a id="radio" class="anchor" href="#radio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Radio</h4>
+
+<p>As you could probably tell, the VID for radio channels is 0 since there's no video.</p>
+
+<table>
+<thead>
+<tr>
+<th>Network (see tuning table)</th>
+<th>Channel</th>
+<th>PID</th>
+<th>TSID</th>
+<th>VID</th>
+<th>AID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ABC Digital TV</td>
+<td>Double J</td>
+<td>678</td>
+<td>547</td>
+<td>0</td>
+<td>690</td>
+</tr>
+<tr>
+<td>ABC Digital TV</td>
+<td>ABC Jazz</td>
+<td>679</td>
+<td>547</td>
+<td>0</td>
+<td>700</td>
+</tr>
+<tr>
+<td>SBS NSW</td>
+<td>SBS Radio 1</td>
+<td>862</td>
+<td>848</td>
+<td>0</td>
+<td>201</td>
+</tr>
+<tr>
+<td>SBS NSW</td>
+<td>SBS Radio 2</td>
+<td>863</td>
+<td>848</td>
+<td>0</td>
+<td>202</td>
+</tr>
+<tr>
+<td>SBS NSW</td>
+<td>SBS Radio 3</td>
+<td>864</td>
+<td>848</td>
+<td>0</td>
+<td>203</td>
+</tr>
+</tbody>
+</table>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/iownall555/dvb-t-newcastle-aus">DVB-T Newcastle</a> is maintained by <a href="https://github.com/iownall555">iownall555</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
