@@ -88,6 +88,20 @@
 				<vlc:option>program=2415</vlc:option>
 			</extension>
 		</track>
+        <track>
+			<title>7flix</title>
+			<location>dvb-t://frequency=578500000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=7</vlc:option>
+				<vlc:option>dvb-ts-id=2480</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/16</vlc:option>
+				<vlc:id>8</vlc:id>
+				<vlc:option>program=2416</vlc:option>
+			</extension>
+		</track>
 		<track>
 			<title>RACING.COM</title>
 			<location>dvb-t://frequency=578500000</location>
@@ -98,7 +112,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>8</vlc:id>
+				<vlc:id>9</vlc:id>
 				<vlc:option>program=2418</vlc:option>
 			</extension>
 		</track>
@@ -112,7 +126,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>9</vlc:id>
+				<vlc:id>10</vlc:id>
 				<vlc:option>program=101</vlc:option>
 			</extension>
 		</track>
@@ -126,7 +140,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>10</vlc:id>
+				<vlc:id>11</vlc:id>
 				<vlc:option>program=111</vlc:option>
 			</extension>
 		</track>
@@ -140,7 +154,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>11</vlc:id>
+				<vlc:id>12</vlc:id>
 				<vlc:option>program=191</vlc:option>
 			</extension>
 		</track>
@@ -154,7 +168,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>12</vlc:id>
+				<vlc:id>13</vlc:id>
 				<vlc:option>program=121</vlc:option>
 			</extension>
 		</track>
@@ -168,7 +182,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>13</vlc:id>
+				<vlc:id>14</vlc:id>
 				<vlc:option>program=131</vlc:option>
 			</extension>
 		</track>
@@ -182,7 +196,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>14</vlc:id>
+				<vlc:id>15</vlc:id>
 				<vlc:option>program=151</vlc:option>
 			</extension>
 		</track>
@@ -196,7 +210,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>15</vlc:id>
+				<vlc:id>16</vlc:id>
 				<vlc:option>program=141</vlc:option>
 			</extension>
 		</track>
@@ -210,7 +224,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>16</vlc:id>
+				<vlc:id>17</vlc:id>
 				<vlc:option>program=181</vlc:option>
 			</extension>
 		</track>
@@ -224,7 +238,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>17</vlc:id>
+				<vlc:id>18</vlc:id>
 				<vlc:option>program=849</vlc:option>
 			</extension>
 		</track>
@@ -238,7 +252,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>18</vlc:id>
+				<vlc:id>19</vlc:id>
 				<vlc:option>program=853</vlc:option>
 			</extension>
 		</track>
@@ -252,7 +266,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>19</vlc:id>
+				<vlc:id>20</vlc:id>
 				<vlc:option>program=850</vlc:option>
 			</extension>
 		</track>
@@ -266,7 +280,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>20</vlc:id>
+				<vlc:id>21</vlc:id>
 				<vlc:option>program=851</vlc:option>
 			</extension>
 		</track>
@@ -280,7 +294,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>21</vlc:id>
+				<vlc:id>22</vlc:id>
 				<vlc:option>program=852</vlc:option>
 			</extension>
 		</track>
@@ -294,7 +308,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>22</vlc:id>
+				<vlc:id>23</vlc:id>
 				<vlc:option>program=862</vlc:option>
 			</extension>
 		</track>
@@ -308,7 +322,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>23</vlc:id>
+				<vlc:id>24</vlc:id>
 				<vlc:option>program=863</vlc:option>
 			</extension>
 		</track>
@@ -322,22 +336,50 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>24</vlc:id>
+				<vlc:id>25</vlc:id>
 				<vlc:option>program=864</vlc:option>
 			</extension>
 		</track>
 		<track>
-			<title>TEN Newcastle</title>
+			<title>GOLD</title>
 			<location>dvb-t://frequency=606500000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=7</vlc:option>
-				<vlc:option>dvb-ts-id=2058</vlc:option>
+				<vlc:option>dvb-ts-id=12956</vlc:option>
 				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>25</vlc:id>
-				<vlc:option>program=2058</vlc:option>
+				<vlc:id>26</vlc:id>
+				<vlc:option>program=1927</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>TVSN</title>
+			<location>dvb-t://frequency=606500000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=7</vlc:option>
+				<vlc:option>dvb-ts-id=12956</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/16</vlc:option>
+				<vlc:id>27</vlc:id>
+				<vlc:option>program=1928</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>WIN Newcastle</title>
+			<location>dvb-t://frequency=606500000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=7</vlc:option>
+				<vlc:option>dvb-ts-id=12956</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/16</vlc:option>
+				<vlc:id>28</vlc:id>
+				<vlc:option>program=2080</vlc:option>
 			</extension>
 		</track>
 		<track>
@@ -345,83 +387,55 @@
 			<location>dvb-t://frequency=606500000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=7</vlc:option>
-				<vlc:option>dvb-ts-id=2058</vlc:option>
-				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
-				<vlc:option>dvb-modulation=64QAM</vlc:option>
-				<vlc:option>dvb-transmission=8</vlc:option>
-				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>26</vlc:id>
-				<vlc:option>program=2090</vlc:option>
-			</extension>
-		</track>
-		<track>
-			<title>TEN Newcastle</title>
-			<location>dvb-t://frequency=606500000</location>
-			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:option>dvb-bandwidth=7</vlc:option>
-				<vlc:option>dvb-ts-id=2058</vlc:option>
-				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
-				<vlc:option>dvb-modulation=64QAM</vlc:option>
-				<vlc:option>dvb-transmission=8</vlc:option>
-				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>27</vlc:id>
-				<vlc:option>program=2218</vlc:option>
-			</extension>
-		</track>
-		<track>
-			<title>TEN HD Newcastle</title>
-			<location>dvb-t://frequency=606500000</location>
-			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:option>dvb-bandwidth=7</vlc:option>
-				<vlc:option>dvb-ts-id=2058</vlc:option>
-				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
-				<vlc:option>dvb-modulation=64QAM</vlc:option>
-				<vlc:option>dvb-transmission=8</vlc:option>
-				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>28</vlc:id>
-				<vlc:option>program=2250</vlc:option>
-			</extension>
-		</track>
-		<track>
-			<title>YESSHOP</title>
-			<location>dvb-t://frequency=606500000</location>
-			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:option>dvb-bandwidth=7</vlc:option>
-				<vlc:option>dvb-ts-id=2058</vlc:option>
+				<vlc:option>dvb-ts-id=12956</vlc:option>
 				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
 				<vlc:id>29</vlc:id>
-				<vlc:option>program=2154</vlc:option>
+				<vlc:option>program=2082</vlc:option>
 			</extension>
 		</track>
 		<track>
-			<title>ELEVEN</title>
+			<title>ELEVEN Newcastle</title>
 			<location>dvb-t://frequency=606500000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=7</vlc:option>
-				<vlc:option>dvb-ts-id=2058</vlc:option>
+				<vlc:option>dvb-ts-id=12956</vlc:option>
 				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
 				<vlc:id>30</vlc:id>
-				<vlc:option>program=2122</vlc:option>
+				<vlc:option>program=2084</vlc:option>
 			</extension>
 		</track>
 		<track>
-			<title>Aspire</title>
+			<title>WIN HD Newcastle</title>
 			<location>dvb-t://frequency=606500000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=7</vlc:option>
-				<vlc:option>dvb-ts-id=2058</vlc:option>
+				<vlc:option>dvb-ts-id=12956</vlc:option>
 				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
 				<vlc:id>31</vlc:id>
-				<vlc:option>program=2186</vlc:option>
+				<vlc:option>program=2085</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<title>WIN NETWORK</title>
+			<location>dvb-t://frequency=606500000</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:option>dvb-bandwidth=7</vlc:option>
+				<vlc:option>dvb-ts-id=12956</vlc:option>
+				<vlc:option>dvb-code-rate-hp=3/4</vlc:option>
+				<vlc:option>dvb-modulation=64QAM</vlc:option>
+				<vlc:option>dvb-transmission=8</vlc:option>
+				<vlc:option>dvb-guard=1/16</vlc:option>
+				<vlc:id>32</vlc:id>
+				<vlc:option>program=2086</vlc:option>
 			</extension>
 		</track>
 		<track>
@@ -434,7 +448,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>32</vlc:id>
+				<vlc:id>33</vlc:id>
 				<vlc:option>program=672</vlc:option>
 			</extension>
 		</track>
@@ -448,7 +462,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>33</vlc:id>
+				<vlc:id>34</vlc:id>
 				<vlc:option>program=673</vlc:option>
 			</extension>
 		</track>
@@ -462,7 +476,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>34</vlc:id>
+				<vlc:id>35</vlc:id>
 				<vlc:option>program=674</vlc:option>
 			</extension>
 		</track>
@@ -476,7 +490,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>35</vlc:id>
+				<vlc:id>36</vlc:id>
 				<vlc:option>program=675</vlc:option>
 			</extension>
 		</track>
@@ -490,7 +504,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>36</vlc:id>
+				<vlc:id>37</vlc:id>
 				<vlc:option>program=676</vlc:option>
 			</extension>
 		</track>
@@ -504,7 +518,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>37</vlc:id>
+				<vlc:id>38</vlc:id>
 				<vlc:option>program=678</vlc:option>
 			</extension>
 		</track>
@@ -518,7 +532,7 @@
 				<vlc:option>dvb-modulation=64QAM</vlc:option>
 				<vlc:option>dvb-transmission=8</vlc:option>
 				<vlc:option>dvb-guard=1/16</vlc:option>
-				<vlc:id>38</vlc:id>
+				<vlc:id>39</vlc:id>
 				<vlc:option>program=679</vlc:option>
 			</extension>
 		</track>
